@@ -49,41 +49,54 @@
             </div>
         </div>
     </nav>
-    <form>
 
-        <div class="container body">
-            <div>
-                <h1>SIGN UP</h1>
+    <div class="container vh-100 vw-100 main">
+<div class="col-lg-6 mx-auto">
+<h1>SIGN UP</h1>
+</div>
+<div class=" col-lg-6 flex-grow-1 mx-auto my-3">
+
+    <input type="text" class="form-control" id="name" placeholder="Name">
+
+</div>
+        <div class=" col-lg-6 flex-grow-1 mx-auto my-3">
+
+            <input type="email" class="form-control" id="email" placeholder="Email">
+
+        </div>
+
+
+        <div class="col-lg-6 mx-auto mb-4 flex-grow-1">
+
+            <div class="input-group has-validation">
+                
+                <input type="password" class="form-control t" id="password" placeholder="Password" required="">
+                
             </div>
-            <div class="mb-3">
+        </div>
 
-                <input type="text" class="form-control" id="exampleInputName" placeholder="Name">
-            </div>
-            <div class="mb-3">
+        <div class="col-lg-6 mx-auto mb-4">
 
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="Email">
+            <input type="number" class="form-control" id="number" placeholder="Contact">
+            
+        </div>
 
-            </div>
-            <div class="mb-3">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <div class="mb-3">
+        <div class="col-lg-6 mx-auto mb-4 ">
 
-                <input type="number" class="form-control" id="exampleInputNumber" placeholder="Contact">
-            </div>
-            <div class="mb-3">
+            <input type="text" class="form-control" id="City" placeholder="City" required="">
+            
+        </div>
+        <div class=" col-lg-6 mx-auto mb-4">
 
-                <input type="password" class="form-control" id="exampleInputCity" placeholder="City">
-            </div>
-            <div class="mb-3">
+            <input type="text" class="form-control" id="address" placeholder="Address" required="">
+            
+        </div>
+        <div class="col-lg-6 mx-auto mb-5">
+            <button class=" btn btn-primary  " type="submit">Submit</button>
+        </div>
+        </form>
 
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Address">
-            </div>
-
-
-            <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+    </div>
     </div>
 
 
@@ -94,7 +107,6 @@
                 00000”</span>
         </div>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

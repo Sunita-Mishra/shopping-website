@@ -22,3 +22,8 @@ h1{
     width: 100%;
     text-align: center;
     }
+.main{
+    margin-top: 17vh;
+    height: auto!important;
+    width: 100vw!important;
+}

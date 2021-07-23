@@ -12,7 +12,12 @@ a{
     text-align: center;
     color: #f8f8f8;
     background: url('intro-bg_1.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: 100vw 100vh;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+ justify-content: center;
+ align-items: center;
 }
 #banner_content{
     position: relative;
@@ -21,9 +26,13 @@ a{
 margin-top: 12%;
  margin-bottom: 12%;
  background-color: rgba(0, 0, 0, 0.7);
- max-width: 660px;
+ max-width: 620px;
+ height: 30vh;
+ 
+
 
 }
+
 footer{
     padding: 10px 0;
 background-color: #101010;
@@ -31,4 +40,42 @@ background-color: #101010;
 bottom: 0 ;
 width: 100%;
 text-align: center;
+}
+@media(max-width:400px)
+{
+    #banner_content{
+        position: relative;
+         padding-top: 6%;
+     padding-bottom: 6%;
+    margin-top: 12%;
+     margin-bottom: 12%;
+     background-color: rgba(0, 0, 0, 0.7);
+     width: 80vw!important;
+     height: 30vh;
+     
+    
+    
+    }
+    .buttons{
+        transform: translateY(9vh);
+    }
+}
+@media(max-width:500px){
+    #banner_content{
+        position: relative;
+         padding-top: 6%;
+     padding-bottom: 6%;
+    margin-top: 12%;
+     margin-bottom: 12%;
+     background-color: rgba(0, 0, 0, 0.7);
+     width: 80vw!important;
+     height: 30vh;
+     
+    
+    
+    }
+
+    .buttons{
+        transform: translateY(8vh);
+    }   
 }

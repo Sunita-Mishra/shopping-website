@@ -6,21 +6,7 @@
 li a{
     color: rgba(255,255,255,0.7)!important;
 }
- a{
-    color: black!important;
-
-}
-.icon{
-    text-align: center;
-    font-size: 15vw;
-}
-p{
-    text-align: center;
-    font-size: 2vw;
-}
-.success{
-    height: 72.5vh;
-}
+ 
 footer{
     padding: 10px 0;
 background-color: #101010;
@@ -28,4 +14,7 @@ background-color: #101010;
 bottom: 0 ;
 width: 100%;
 text-align: center;
+}
+.k{width: 60%;
+
 }
