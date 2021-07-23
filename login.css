@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    color:rgba(255, 255, 255, 0.7)!important;
+}
+h1{
+    text-align: left!important;
+    color: white;
+font-size: 1vw!important;
+padding-top: 3%;
+font-size: 1.5vw!important;
+padding-left: 0.9vw;
+
+}
+#login_page{
+    padding-top: 5%;
+    width: 40%;
+    height: 100vh;
+   
+
+}
+.headin{
+
+    height: 13%!important;
+    
+    
+    }
+    .foot{
+        font-weight: bolder;
+    }
+
+.login-page{
+    border: 0.2vw solid black;
+    padding: 0.3vw;
+    padding-top: 0.1vw;
+    height: 65vh;
+    margin-top: 13%;
+    
+    
+
+}
+.foots{
+    text-align: center;
+}
+.foot a{
+    color: blue!important;
+    text-decoration: none;
+}
+

@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    color: rgba(255,255,255,0.7)!important;
+}
+.jumbo{
+    height: 30%;
+    
+    background-color:rgba(220,220.220,220,1)!important;
+    padding-top: 3vw;
+    height: 22vh;
+    
+    
+    
+}
+.jumbotron{
+    padding-top:12vh!important;
+}
+h1{
+    font-size: 3vw!important;
+    letter-spacing: 0.2vw;
+    padding-left: 5vw;
+}
+.jumbo p{display: inline;
+    font-size: 1.1rem!important;
+    padding-left: 5vw;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-texts{
+    text-align: center;
+}
+footer{
+    padding: 10px 0;
+background-color: #101010;
+ color:#9d9d9d;
+bottom: 0 ;
+width: 100%;
+text-align: center;
+}

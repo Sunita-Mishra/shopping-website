@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+li a{
+    color:rgba(255,255,255, 0.7)!important;
+}
+.body{
+    padding-top: 20vh;
+    width: 40vw;
+    height: 100vh;
+}
+h1{
+    text-align: start;
+}
+    footer{
+        padding: 10px 0;
+    background-color: #101010;
+     color:#9d9d9d;
+    bottom: 0 ;
+    width: 100%;
+    text-align: center;
+    }
